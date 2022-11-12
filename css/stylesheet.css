@@ -1,0 +1,31 @@
+#cookie-statement {
+  position: fixed;
+  top: 80%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  background-color: #FA0;
+  opacity: 0.5;
+  width: 400px;
+  height: 200px;
+  border: 3px solid #FFF;
+  text-align: center;
+  padding: 20px;
+}
+
+#cookie-statement p {
+  color: #FFF;
+  font-size: 16px;
+}
+
+#cookie-statement button {
+  background-color: #FFF;
+  border: none;
+  color: #FA0;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
