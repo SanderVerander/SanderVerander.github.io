@@ -1,28 +1,37 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="css/stylesheet.css">
+<link rel="stylesheet" href="css\stylesheet.css">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>pricing</title>
 <meta name="keywords" content="index,home,inholland" />
 <meta name="description" content="index page" />
 <link rel="stylesheet" type="text/css" href="mypage.css" />
-<link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
-<link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="img\favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="img\favicon-16x16.png" sizes="16x16" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
 </head>
 <body>
 <header>
 <img src="img/logo.png" alt="logo">
 <h1>SportsInnovation inc.</h1>
 <h2>We Change The Game</h2>
-<nav>
-    <ul>
-	<li><a href="index.html">Index</a></li>
-    <li><a href="product.html">Products</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
+<!-- HAMBURGER MENU -->
+<nav id="hamnav">
+<!-- HAMBURGER ICON -->
+<label for="hamburger">&#9776;</label>
+<input type="checkbox" id="hamburger"/>
+
+<!-- MENU ITEMS -->
+	<section id="hamitems">
+	<a href="index.html">Index</a>
+    <a href="product.html">Products</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="contact.html">Contact</a>
+	</section>
 </nav>
+
 <table>
   <tr>
     <th>Product</th>
@@ -48,9 +57,9 @@
     <td>Above the Net Camera- Hockey</td>
     <td>$500</td> 
   </tr>
-  <a href="https://www.inholland.nl/"><img src="img/img3.jpg" alt="Camera Drone"></a>
-  <a href="https://www.inholland.nl/"><img src="img/imga1.jpg" alt="Camera Drone"></a>
-  <a href="https://www.inholland.nl/"><img src="img/imga2.jpg" alt="Camera Drone"></a>
+  <a href="https://www.inholland.nl/"><img src="img\img3.jpg" alt="Camera Drone"></a>
+  <a href="https://www.inholland.nl/"><img src="img\imga1.jpg" alt="Camera Drone"></a>
+  <a href="https://www.inholland.nl/"><img src="img\imga2.jpg" alt="Camera Drone"></a>
   <p>Source of Data © 2022</p>
   <h1 id="cookie-statement">Cookie statement
 <p>This website uses cookies to ensure you get the best experience on our website. By continuing to use this site, you consent to the use of cookies. For more information, please see our <a href="https://www.allaboutcookies.org/">cookie policy</a>.</p>
@@ -61,4 +70,5 @@
 </footer> 
 </table>
 </header>
+<script src="javascript.js"></script>
 </body>
