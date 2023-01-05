@@ -554,7 +554,7 @@ aside {
 	grid-row: 10;
 	grid-column: 1;	
 	margin-top: 30px;
-	top: 1500px;
+	bottom: -2000px;
 	right: 1540px;
 }
 .aside-price1{
